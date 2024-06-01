@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title {
+    margin-top: 00px;
+    font-weight: lighter;
+    font-size: 64px;
+    margin-bottom: 10px;
+}
+
+.main-img {
+    box-shadow: 0px 2px 5px lightgray;
+    margin-right: 40px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+    margin-top: 00px;
+}
+
+.cnt{
+    display: flex;  
+}
+
+.cnt1{
+    margin: auto;    
+}
+
+.redirect{
+    color: #007185;
+    margin-top: 10px;
+    font-size: 20px;
+    margin-bottom: 2px;
+}
+
+.before-red{
+    font-size: 22px;
+}
+
+.checked {
+  color: orange;
+}
+
+.design{
+    font-size: 24px;
+}
+
+.cnt2{
+    font-size:22px;
+}
+
+.cnt3{
+    font-size: 22px;
+    text-align: justify;
+    margin-right: 50px;
+}
+
+.cnt4{
+    color: #565659;
+    margin-top: 30px;
+    margin-left: 28px;
+    margin-bottom: 0px;
+    display: inline-block;
+}
