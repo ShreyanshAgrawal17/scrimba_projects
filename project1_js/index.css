@@ -47,6 +47,10 @@ body {
     font-family: Cursed Timer ULiL;
 }
 
+.btn-click:hover{
+    cursor: pointer;
+}
+
 .btn-footer{
     display: block;
     border: 2px solid #9AABD8;
@@ -59,4 +63,8 @@ body {
     font-size: 24px;
     font-family: Cursed Timer ULiL;   
     padding: 25px
+}
+
+.btn-footer:hover{
+    cursor: pointer;
 }
