@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    background-color:  #1C1C1C;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.struct{
+    width: 600px;
+height: 600px;
+opacity: 0px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 65px;
+background-color: #1F2937;
+font-size: 20px;
+font-weight: 800;
+line-height: 40px;
+letter-spacing: -0.025em;
+text-align: left;
+color: white;
+}
+
+h1{
+    padding-top: 120px;
+    padding-left: 70px;
+    margin-bottom: 0%;
+}
+
+.oddly{
+    color: #55F991;
+}
+
+h3{
+    font-weight: normal;
+    font-size: 22px;
+    padding-left: 70px;
+    margin-top: 8px;
+}
+
+.btn{
+    background-color: #10B981;
+    border-radius: 4px ;
+    color: white;
+    padding: 9px 12px 9px 12px;
+    margin-left: 70px;
+    margin-top: 30px;
+    border: none;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+.line{
+    margin-top: 36px ;
+    margin-left: 70px;
+    margin-right: 84px;
+    border: 1px solid #374151;
+}
+
+.btn-over{
+    background-color: #374151;
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 70px;
+    margin-right: 10px;
+    width: 211px;
+height: 39px;
+border-radius: 6px;
+opacity: 0px;
+
+}
+
+#btn-el1{
+    margin-left: 10px;
+    color: #55F991;
+    font-size: 18px;
+    text-align: center;
+    font-weight: lighter;
+}
+
+#btn-el2{
+    color: #55F991;
+    font-size: 18px;
+    text-align: center;
+    font-weight: lighter;
+}
