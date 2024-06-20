@@ -68,8 +68,9 @@ function appendItemToReviewList(item){
                         `
     newEl.addEventListener("click",function(){
         let exactLocationOfItemInDB=ref(database,`reviewList/${itemID}`)
-        if(remove(exactLocationOfItemInDB)){
-            alert("Are you sure you want to delete!")
+         const confirmed=confirm("Are you sure you want to delete!")
+        if(confirmed){
+            remove(exactLocationOfItemInDB)
         }
     })
     reviewListEl.appendChild(newEl)
