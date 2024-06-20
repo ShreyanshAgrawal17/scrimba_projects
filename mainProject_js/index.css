@@ -1,0 +1,135 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #111827;
+}
+
+.container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 320px;
+}
+
+h1 {
+    color: #FFFFFF;
+    margin-top: 17px;
+    text-align: center;
+    font-family: Josefin Sans;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 17px;
+    padding-bottom: 0px;
+
+}
+
+#logo {
+    width: 90px;
+    height: 90px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 51px;
+    user-select: none;
+}
+
+#input-field {
+    display: block;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 317px;
+    height: 118px;
+    border-radius: 8px;
+    background-color: #444059;
+    border: none;
+    text-align: left;
+    padding-top: 0px;
+    padding-bottom: 75px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 15px;
+    line-height: 118px;
+    box-sizing: border-box;
+}
+
+.btn {
+    background: #28A9F1;
+    width: 317px;
+    height: 61px;
+    border-radius: 8px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Josefin Sans;
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 14px;
+    border: none;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+#mid {
+    font-family: Josefin Sans;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+ul li {
+    font-size: 14px;
+    background-color: #FFFFFF;
+    color: #1B1924;
+    padding: 12px;
+    flex-grow: 1;
+    text-align: justify;
+    user-select: none;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul li:hover {
+    cursor: pointer;
+}
+
+.lower {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#small1-input-field{
+    width: 152.85px;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    text-align: center;
+    background-color:#444059;
+    color: #8F8F8F;
+    margin-right: 8px;
+}
+
+#small2-input-field{
+    width: 152.85px;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    text-align: center;
+    background: #444059;
+    color: #8F8F8F;
+}
